@@ -1,6 +1,6 @@
 token:
   expiration_time: 86400000
-  secret: usertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokenusertoken
+  secret: usertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokendefault
 
 gateway:
   ip: 127.0.0.1
