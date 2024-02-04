@@ -5,9 +5,8 @@ spring:
     username: sa
     password: '{cipher}AQBd6Ms2zlDPe1+jCiSOQmC/NgCCfKxUFdlIqeESs4fBvsLnOQIaAyjMBnp4p9La/2jGG69wWY60k58waETSvLZ/yQcgM4zWDg1JqIeXlhK5pSFz4tMoogwevAh3ozshFlsGUsCTV+cpDroDXVWTrw58WXGHrSAkeRwvgmY97zjDsXnYXM88JTMV6rcHmhdCjzeMoTf6Z2lnZGxNxvbwqdM0BJv2hkywSxxwF7iS0f7vHx9J+GH4tozCaulHZK3fEbgdPF9cmHWuitKQ8pGY5z6f6685zABgsOc9htlTLzomoo8iz0XAJmPmlbneuSj4Gk3BiW22u92Rtak1HOVc9VqLjRKZPd/PTUISb6AmmSZpgrie9/yfDixksEwNx4uvFNk='
 
-token:
-  expiration_time: 86400000
-  secret: usertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokenusertokende
-
 gateway:
   ip: 127.0.0.1
+
+order_service:
+  url: http://127.0.0.1:8000/order-service/%s/orders
